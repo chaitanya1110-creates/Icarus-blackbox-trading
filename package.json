@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build && esbuild server.ts --platform=node --format=esm --bundle --outfile=server.js --external:express --external:@google/genai --external:dotenv --external:vite",
+    "build": "vite build && esbuild server.ts --platform=node --format=esm --bundle --outfile=server.js --external:express --external:@google/genai --external:dotenv --external:vite && node scripts/build-standalone.js",
     "preview": "vite preview",
     "start": "node server.js",
     "clean": "rm -rf dist server.js",
