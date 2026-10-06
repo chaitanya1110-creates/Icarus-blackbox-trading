@@ -1,0 +1,6 @@
+{
+  "name": "AetherTrade - Black Box 4H Swing Reversal Terminal",
+  "description": "Minimalist 4H swing trading terminal with algorithmic Black Box trend reversal detection, volume analysis, AI sentiment intelligence, and high-conviction (>90%) order triggers for EUR/USD, EUR/GBP, GBP/USD, and XAU/USD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
